@@ -52,6 +52,8 @@ struct MenuView: View {
             
         case .grabadora:
             GrabadoraView()
+        case .reproductorVideo:
+            ReproductorVideoView()
         case .textoAVoz:
             Text("Próximamente... tal vez")
         case .misAudios:
